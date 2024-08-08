@@ -1,0 +1,6 @@
+                                                                POST Requests
+- POST is a request method
+- POST requests, ask the server to accept/store data which is enclosed in the body of the request
+- Often used when submitting forms            
+- When we post data to the server we are no longer using the query string in the URL the data we are posting to the server is in the 
+  request body itself so we need a way to handle that a little differently from get requests where we use query strings                                                    

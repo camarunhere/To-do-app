@@ -1,0 +1,34 @@
+JavaScript Engines
+
+- Computers do not understand JavaScript
+  * V8 JavaScript engine is at the heart of Nodejs
+  * JS engine converts the JavaScript code into machine code something that computer can understand (compiler)
+                                            
+                                            MACHINE CODE
+
+                                            JavaScript
+                                                C++
+                                            Assembly Language
+                                            Machine Code
+
+  * Nodejs is actually written in C++. But, as a program it allows us to write JavaScript which can run on a computer or a server
+  * The reason that Nodejs is written in C++ is because it uses the V8 JavaScript engine created by Google which is also written in C++
+
+Simply in words:
+ => Nodejs is written in C++
+ => At the heart of Nodejs is the V8 engine
+ => The V8 engine converts our JavaScript code into Machine code 
+ 
+- A JavaScript engine takes JavaScript and converts it into something it does understand - machine code  
+
+How does Nodejs work with V8
+
+ - Nodejs is written in C++ and V8 is embedded into it right there
+ - When we run JavaScript and run through Nodejs it's passed into V8 and converted into machine code which the computer can understand.
+    Now, V8 is just a part of Nodejs ,C++ call and there are other parts of Nodejs written in C++. So, what they do, the rest of C++ in Nodejs 
+    hooks into the JavaScript V8 engine and it adds additional features to it 
+ - So intially JavaScript was designed to run in a browser and it wasn't meant with lower level operations. But C++ was more powerful than 
+   JavaScript
+ - So, Nodejs which is written in C++ hooks into the V8 engine and it extends in such a way that passes on these additional features to 
+   JavaScript such as reading and writing files or connecting to a database. This is what makes Nodejs so exciting, the fact that now we have
+   greater power with JavaScript that we didn't have before and it enables us to create server side code in JavaScript.

@@ -1,0 +1,10 @@
+                                                                 Protocol
+- A set of communication rules, that two sides agree to use when communicating
+- When we want to communicate with the server then there should ip connection between the server and the client with the help of a socket
+- FTP stands for File Transfer Protocol TTP is used for websites eg: HTTP 
+- The information that is sent down this socket between the two computers via a Protocol called TCP
+- Data is converted into smaller little sections and transfers them along the sockets and these small little sectionsare called packets
+- Nodejs is used to open a connection between two computers and send information between them
+                                                                Ports
+- A program running on a computer can listen for requests sent to a particular port number  E.g.172.24.86.76.3000
+- Nodejs and other programs running on the server or listen to a particular port number

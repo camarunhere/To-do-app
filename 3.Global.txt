@@ -1,0 +1,22 @@
+- In Nodejs the global object is no longer the window object because we are not in a browser
+- The global object in Nodejs is an object called global but much like the window object it gives us access to some methods we can use
+  straight out of the box in Nodejs
+  *Global Objects
+        -> Class: Buffer
+        -> __dirname
+        -> __filename
+        -> clearImmediate(immediateObject)
+        -> clearInterval(intervalObject)
+        -> clearTimeout(timeoutObject)
+        -> console
+        -> exports
+        -> global
+        -> module
+        -> process
+        -> require()
+            => require.cache
+            => require.extensions
+            => require.resolve()
+        -> setImmediate(callback[,arg][,...])
+        -> setInterval(callback,delay[,arg][,...])
+        -> setTimeout(callback,delay[,arg][,...])

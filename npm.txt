@@ -1,0 +1,4 @@
+'npm install' is the command used for install all the dependencies at once
+                                                             Nodemon
+- Nodemon will watch the files in the directory in which Nodemon was started, and if any files change, Nodemon will automatically restart
+ your node application

@@ -1,0 +1,19 @@
+* HTTP methods or verbs essentially the kind of requests we make 
+
+
+- GET  => a get request which is what we made when we type a URL into an address bar
+- POST => a post request which is generally made when we post some data to a server from a webform 
+- DELETE => or delete a request
+- PUT  => or put request 
+
+The above are all different HTTP methods or verbs and they are the type of request that we make
+-They all work the same like eachother 
+-Each different type of request Contains a specific piece of information attached to it to say to the server what kind of request is made
+-Then it's upto the server to look at what type of request it is and then treat that type of request in a particular way 
+-By using express in node we can respond to each of these different types of requests at ease 
+
+
+                                                                    Responding to requests
+- GET  - app.get('route', fn)
+- POST - app.post('route', fn)
+- DELETE - app.delete('route', fn)                                

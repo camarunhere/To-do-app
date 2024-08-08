@@ -1,0 +1,4 @@
+- Pipe can help us to take data from a read stream and then pipe it into a write stream
+- Instead manually listening for that on data event when we receive a chunk of data the pipe automatically does that for us then it pipes to 
+  write stream
+- We don't need to do anything manually because piping does this for us

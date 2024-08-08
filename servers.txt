@@ -1,0 +1,16 @@
+                                 Request
+                    CLIENT     ------------->     SERVER
+                                 request +
+                                  request headers   
+
+                                   Response
+                    CLIENT     <---------------   SERVER    
+                                   response data 
+                                   + response headers
+
+
+ Response headers
+
+ - Content-Type
+ - Status
+ 

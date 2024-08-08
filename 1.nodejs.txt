@@ -1,0 +1,31 @@
+NODE.js Actually is 
+
+- A platform allows us to run JavaScript on a computer / server
+- Read, Delete and Update files
+- Easily communicate with a database
+* If we want to create full web application ourselves we need not to learn additional programming languages to run on the 
+   server like PHP or Ruby, We can just do it all in JavaScript via Node.js
+* Nodejs gives us the ability to Easily communicate with the database and all the things that we would expect of a server-side
+
+WHY is NODE.js So Popular?
+
+- It uses JavaScript
+- Fastest (runs on the V8 engine & uses non-blocking code)
+- Huge ecosystem of open source packages (NPM)
+- Great for real-time services (like chats)
+
+The inner workings of NODE.js
+
+- V8 engine
+- Modules
+- Event emitter
+- The File System
+
+Creating a web server
+
+- Routing
+- Express
+- Templating
+
+Make a Node.js application(todo app) 
+
